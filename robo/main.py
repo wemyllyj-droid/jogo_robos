@@ -68,7 +68,6 @@ class Tiro(Entidade):
         if self.rect.y < 0:
             self.kill()
 
-
 # ROBO BASE
 class Robo(Entidade):
     def __init__(self, x, y):
